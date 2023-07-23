@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div class="calculator-container">
+        <div class="screen-container">
+            <p class="screen"></p>
+        </div>
+        <div class="clear-container">
+            <button class="clear" style="width: 300px; height: 80px;" onclick="input('clear')">Clear</button>
+            <button class="clear-all" style="width: 300px; height: 80px;" onclick="input('clearAll')">Clear All</button>
+        </div>
+        <div class="buttons-container">
+            <button onclick="input(1)" class="one">1</button>
+            <button onclick="input(2)" class="two">2</button>
+            <button onclick="input(3)" class="three">3</button>
+            <button onclick="input('+')" class="add">+</button>
+            <button onclick="input(4)" class="four">4</button>
+            <button onclick="input(5)" class="five">5</button>
+            <button onclick="input(6)" class="six">6</button>
+            <button onclick="input('-')" class="subtract">-</button>
+            <button onclick="input(7)" class="seven">7</button>
+            <button onclick="input(8)" class="eight">8</button>
+            <button onclick="input(9)" class="nine">9</button>
+            <button onclick="input('*')" class="multiply">*</button>
+            <button onclick="input(0)" class="zero">0</button>
+            <button onclick="input('/')" class="divide">/</button>
+            <button onclick="input('equals')" class="equals">=</button>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
